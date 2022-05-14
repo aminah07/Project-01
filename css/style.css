@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	text-align: center;
+	background-color: yellow;
+}
+
+.top{
+	color: green;
+	font-size: 90px;
+	letter-spacing: 2px;
+}
+
+.template{
+	font-size: 19px;
+	line-height: 30px;
+}
+
+.btn{
+	font-size: 16px;
+	background-color: darkgreen;
+	color: yellow;
+	width: 160px;
+	height: 70px;
+	border-radius: 21px;
+}
+
+.header{
+	background-color: darkgreen;
+	height: 110px;
+	text-align: center;	
+}
+
+.header ul li{
+	color: yellow;
+	list-style: none;
+	display: inline-block;
+	font-size: 20px;
+	line-height: 100px;
+	width: 90px;
+}
+
+.btn:hover{
+	background-color: lightgreen;
+	cursor: pointer;
+}
+
+.header ul li:hover{
+	color: lightgreen;
+	cursor: pointer;
+	transform: scale(1.2);
+}
